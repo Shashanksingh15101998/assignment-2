@@ -25,8 +25,8 @@ jobs:
     - name: Authenticate to Google Cloud
       uses: google-github-actions/auth@v2
       with:
-        workload_identity_provider:
-        service_account: 
+        workload_identity_provider: "projects/344585657590/locations/global/workloadIdentityPools/myassignment/providers/logics" 
+        service_account: "second@nifty-oxide-483409-s0.iam.gserviceaccount.com"
 
 
     - name: Terraform Init
